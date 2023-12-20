@@ -21,7 +21,7 @@ try {
   dotenv.config({ path: process.cwd() + "/" + ENV_FILE_NAME });
 } catch (e) {}
 
-// CORS when consuming Medusa from admin
+// CORS when consuming Medusa from admin s
 const ADMIN_CORS =
   process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
 
